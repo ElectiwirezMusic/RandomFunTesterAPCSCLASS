@@ -21,7 +21,7 @@ public class DrawSquare{
 	 *  values.
 	 */
 	public DrawSquare(){
-		paper = new SketchPad(CANVAS_WIDTH, CANVAS_HEIGHT);
+		paper = new SketchPad(800, 800);
 	    pencil = new DrawingTool(paper);
 	}
 

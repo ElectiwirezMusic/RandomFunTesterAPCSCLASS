@@ -28,6 +28,7 @@ public class DrawCircles{
 	    pen = new DrawingTool(canvas);
     }
     
+    //method to due circles
     public void drawcirc(int x)
     { 
     	pen.setColor(Color.red);

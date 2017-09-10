@@ -13,11 +13,13 @@ public class RandomFunTester {
 	    public RandomFunTester (){
 	    	action = 0;	
 	    }
+	    //generates the random radius of the circle between 20 and 50
 	    public int randgenradius(int min, int max){	
 			Random ran = new Random();
 			return (min + ran.nextInt((max - min) +1)+ min);
 		}
 	    
+	    //generates randome number 
 	     public void RandGenNum(){
 			Random num = new Random();
 			int range = 3;
@@ -27,13 +29,14 @@ public class RandomFunTester {
 				
 			}
 		}
-	
+	    //main method
         public static void main(String[] args){
 	        	
 		      RandomFunTester myTester = new RandomFunTester();
                
               myTester.RandGenNum(); 	
                
+               //switch statement decides whether to show a square, house or circles.
                switch (myTester.action) {
                
                case 1: 
